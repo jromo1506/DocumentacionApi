@@ -1,0 +1,45 @@
+
+ul li{
+    display: flex;
+    // padding: 5px;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    font-size: small;
+    color: rgb(109, 109, 109) ;
+    transition:all ease 0.3s;
+    cursor: pointer;
+}
+
+
+ul li:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+
+.chevron{
+    text-align: center;
+    flex: 1;
+}
+
+.module{
+    text-align: center;
+    width: 90%;
+}
+
+
+.seccion{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+     padding: 15px 0px;
+    background-color: rgb(190, 0, 0);
+    color: white !important;
+    font-weight: 600;
+}
+
+
+.mid-cont{
+     background-color:rgb(255, 255, 255) ;
+    border-bottom: 5px;
+    padding: 0px ;
+}
+

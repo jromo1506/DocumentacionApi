@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+      font-family: "Inter", sans-serif;
+      background-color: rgb(224, 224, 224);
+}
 
 .flex{
     display: flex;
@@ -15,5 +26,64 @@
 .flex-1{
     display: flex;
     flex: 1;
+}
+
+.cont{
+  
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.m-cont{
+    box-sizing: border-box;
+    margin: 0.3rem;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0; /* opcional */
+}
+
+
+/* Padding */
+.p-1 { padding: 10px; }
+.p-2 { padding: 20px; }
+.p-3 { padding: 30px; }
+.p-4 { padding: 40px; }
+.p-5 { padding: 50px; }
+
+/* Margin */
+.m-1 { margin: 10px; }
+.m-2 { margin: 20px; }
+.m-3 { margin: 30px; }
+.m-4 { margin: 40px; }
+.m-5 { margin: 50px; }
+
+
+.txt-c{
+    text-align: center;
+}
+
+.txt-j{
+    text-align: justify;
+}
+
+.elektra-red{
+    color: rgb(190, 0, 0);
+}
+
+.elektra-gray{
+    color: rgb(135, 135, 135);
+}
+
+
+
+.txt-sm{
+    font-size: smaller;
 }
 
