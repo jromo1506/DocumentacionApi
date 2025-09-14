@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
     margin: 0;
@@ -50,19 +52,12 @@ ul {
 }
 
 
-/* Padding */
-.p-1 { padding: 10px; }
-.p-2 { padding: 20px; }
-.p-3 { padding: 30px; }
-.p-4 { padding: 40px; }
-.p-5 { padding: 50px; }
+.lh-1 { line-height: 1; }
+.lh-1-2 { line-height: 1.2; }
+.lh-1-5 { line-height: 1.5; }
+.lh-2 { line-height: 2; }
+.lh-2-5 { line-height: 2.5; }
 
-/* Margin */
-.m-1 { margin: 10px; }
-.m-2 { margin: 20px; }
-.m-3 { margin: 30px; }
-.m-4 { margin: 40px; }
-.m-5 { margin: 50px; }
 
 
 .txt-c{
@@ -85,5 +80,10 @@ ul {
 
 .txt-sm{
     font-size: smaller;
+}
+
+
+.txt-xs{
+    font-size: x-small;
 }
 

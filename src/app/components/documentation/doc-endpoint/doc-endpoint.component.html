@@ -1,23 +1,42 @@
 <div>
-    <div>
-        <h4>Titulo endpoint</h4>
+    <div class="mt-3">
+        <div class="text-md">
+             <h3><strong>Detalle de la orden</strong></h3>
+        </div>
 
-        <div>
+        <div class="text-sm leading-relaxed my-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident architecto a similique. Omnis distinctio rem ea neque quas nostrum sed magni, autem quaerat, eveniet illum magnam veniam natus dignissimos iure fuga quo maiores asperiores? Molestias ullam vel, eaque facere rem voluptatem reprehenderit aut assumenda iure magnam beatae tenetur. Natus?</p>
 
         </div>
         
-        <div>
-            <p>curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.sellercenter.com/orders/$ORDER_ID</p>
+        <div class="p-4 bg-neutral-700 text-white rounded text-sm my-3 flex justify-between">
+            <div >
+                <p>curl -X GET -H 'Authorization: Bearer $ACCESS_TOKEN' https://api.sellercenter.com/orders/$ORDER_ID</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-copy"></i>
+            </div>
         </div>
     </div>  
-    <div>
-        <h4>Pasos</h4>
+    <div class="my-5">
+         <div class="text-md">
+             <h3><strong>Instrucciones</strong></h3>
+        </div>
+        <div class="my-3 mx-2">
         <app-doc-endpoint-steps></app-doc-endpoint-steps>
+      
+
+        </div>
     </div>
-    <div>
-         <h4>Request</h4>
-        <app-doc-endpoint-request></app-doc-endpoint-request>
+
+
+    <div class="my-5">
+        <div class="text-md">
+             <h3><strong>Request</strong></h3>
+        </div>
+        <div class="my-3 mx-2">
+            <app-doc-endpoint-request></app-doc-endpoint-request>
+        </div>
     </div>
     <div>
          <h4>Response</h4>
